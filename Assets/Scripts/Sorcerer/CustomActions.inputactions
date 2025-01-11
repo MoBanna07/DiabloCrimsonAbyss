@@ -1,0 +1,54 @@
+{
+    "name": "CustomActions",
+    "maps": [
+        {
+            "name": "Main Menu",
+            "id": "ceadc0e6-2131-4e20-8796-bbfbf207ff80",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "c910f21e-eb23-464b-a7ea-2c3c05127737",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ability",
+                    "type": "Button",
+                    "id": "49907d4e-f385-4b62-89a7-573e050dcfcf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f26229f3-52f2-4ce2-ae93-b4aefd2c107d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc66d4cd-0db3-4a3f-9fa2-a7bf7fabb5e8",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ability",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
